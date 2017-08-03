@@ -4,7 +4,8 @@ const StoreCellWithPriceComponent = ({store, idx}) => (
   <div className="row">
     <div className="col-md-10 col-sm-10 col-lg-10">
       <h4 className="title">
-        These results are sorted by relevance.
+        <i className="label label-info">{idx}</i>
+        {" " + store.productName}
       </h4>
       <h4>
         <a target="_black" href={'https://www.walmart.com/store/'+store.storeNo}>{"   at " + store.name}</a>

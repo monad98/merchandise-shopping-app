@@ -7,7 +7,7 @@ const StoreListWithProductComponent = ({stores, searchText, limit, offset}) => (
     <h4>with limit: {limit}, offset: {offset}</h4>
     <div className="panel panel-primary">
       <div className="panel-heading">
-        <h3 className="panel-title"><i className="glyphicon glyphicon-th-list"/></h3>
+        <h3 className="panel-title">These products are sorted by relevance (text search score)</h3>
       </div>
       <div className="panel-body">
         {stores.map((store, idx) =>
