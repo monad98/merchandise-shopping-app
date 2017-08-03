@@ -1,7 +1,8 @@
 # Merchandise shopping app (Walmart Ver.)
 
  [Live app](https://merchandise-shopping-app.herokuapp.com/)
-
+ 
+ [API list](https://merchandise-shopping-app.herokuapp.com/apidoc/index.html)
 ## Quick Start
 ```bash
 #clone the repo
