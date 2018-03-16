@@ -32,7 +32,7 @@ class SignupComponent extends React.Component {
           <div className="form-group">
             <label htmlFor="password" className="col-sm-3 control-label">Confirm Password</label>
             <div className="col-sm-7">
-              <input type="password" name="password" id="password" placeholder="Password" required="required" className="form-control"/>
+              <input type="password" name="password-confirm" id="password-confirm" placeholder="Confirm Password" required="required" className="form-control"/>
             </div>
           </div>
           <div className="form-group">
