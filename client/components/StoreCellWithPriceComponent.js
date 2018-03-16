@@ -13,7 +13,7 @@ const StoreCellWithPriceComponent = ({store, idx}) => (
       <p style={{marginLeft: '10px'}}>{store.streetAddress + ', ' + store.city + ' ' + store.stateProvCode}</p>
     </div>
     <div className="col-md-2 col-sm-2 col-lg-2">
-      <h4><span className="label label-lg label-danger">Price: ${store.price.toFixed(2)}</span></h4>
+      <h4><span className="label label-lg label-danger">Price: ${store.price ? store.price.toFixed(2) : 'N/A'}</span></h4>
       <h4><span className="label label-lg label-success">Qty: {store.quantity}</span></h4>
     </div>
 
